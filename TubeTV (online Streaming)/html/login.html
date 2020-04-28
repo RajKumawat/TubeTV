@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TubeTV Login</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+ 	<style type="text/css">
+ 		body {
+  				background-image: url("../images/back.png");
+			}
+ 	</style>
+</head>
+<body>
+	<link rel="stylesheet" type="text/css" href="../css/login.css">
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+			</div>
+
+			<div class="col-md-4" style="background-color: white; margin-top: 40px; border-radius: 5px;">
+				<form action="../functionality/userlogin.php" method="POST">
+					<br/>
+					<a href="../html/index.html" style="float: right;">Home</a>
+					<h2 style="text-align: center;"><span style="color: #f0ad4e;">TubeTV</span> Sign-in</h2>
+					<div class="imgcontainer">
+      					<img src="../images/ul.png" alt="Avatar" class="avatar">
+    				</div><hr>
+					
+  					<div class="form-group">
+    					<label for="exampleInputEmail1">Email address</label>
+	  	  				<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="email">
+		    			<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+ 					</div>
+ 	 				<div class="form-group">
+		    			<label for="exampleInputPassword1">Password</label>
+	    				<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="password">
+	  				</div>	
+		  			<div class="form-group">
+		  				<small id="emailHelp" class="form-text text-muted">doesn't have an account</small><a href="../html/signup.html">&nbsp;&nbsp;Sign-up</a>
+  					</div>
+  					<button type="submit" class="btn btn-warning">Sign in</button><br>
+  						<button type="submit" class="btn btn-danger" style="float: right;"><a href="../html/adminlogin.html" style="color: white;"> Admin Sign-in</a></button>
+				</form><br/><br/>
+			</div>
+
+			<div class="col-md-4">
+			</div>
+		</div><!-- row -->
+	</div><!-- container -->
+
+</body>
+
+</html>

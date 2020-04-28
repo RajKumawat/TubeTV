@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TubeTV Admin Login</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+ 	<style type="text/css">
+ 		body {
+  				background-image: url("../images/back.png");
+			}
+ 	</style>
+
+</head>
+<body>
+
+	<link rel="stylesheet" type="text/css" href="../css/adminlogin.css">
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+			</div>
+
+			<div class="col-md-6" style="background-color: white; margin-top: 40px; border-radius: 5px;">
+				<form action="../html/adminindex.html"><br/>
+					<a href="../html/index.html" style="float: right;">Home</a>
+					<h2 style="text-align: center;"><span style="color: #f0ad4e;">TubeTV</span> Admin </h2>
+					<div class="imgcontainer">
+      					<img src="../images/ul.png" alt="Avatar" class="avatar">
+    				</div><hr>
+					
+  					<div class="form-group">
+    					<label for="exampleInputEmail1">Email address</label>
+	  	  				<input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" name="email" required>
+		    			<!-- <small id="emailHelp" class="form-text text-muted" style="font-size: 14px;">We'll never share your email with anyone else.</small> -->
+ 					</div>
+ 	 				<div class="form-group">
+		    			<label for="exampleInputPassword1">Password</label>
+	    				<input type="password" class="form-control" id="password" placeholder="Password" name="password" required>
+	  				</div>	
+		  			<div class="form-group">
+		  				<small id="emailHelp" class="form-text text-muted" style="font-size: 14px;">forgot</small><a href="../html/signup.html">&nbsp;&nbsp;username / password.</a>
+  					</div>
+  					<button type="submit" id="btnsubmit" class="btn btn-warning">Sign in</button><br>
+				</form><br/>
+
+				<script type="text/javascript">
+    				$(function () 
+    				{
+        				$("#btnsubmit").click(function () 
+        				{
+            				var password = $("#password").val(); 
+            				var confirmPassword = "raj@123";
+            				var email = $("#email").val();
+            				var confirmemail = "rajkumawat1126@gmail.com";
+            				if (password != confirmPassword && email != confirmemail) 
+            				{
+                				alert("!! Wrong Credentials for Login !!");
+                				return false;
+            				}
+            				return true;
+        				});
+    				});
+				</script>
+
+
+			</div>
+
+			<div class="col-md-3">
+			</div>
+		</div><!-- row -->
+	</div><!-- container -->
+
+</body>
+</html>

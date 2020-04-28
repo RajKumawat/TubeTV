@@ -1,0 +1,42 @@
+.navbar-inverse
+{
+  border-radius: 0px; 
+  border:0px;
+  height: 65px;
+}
+h1
+{
+	font-size: 50px; 
+	font-weight: bold;
+	color: #f0ad4e;
+} 
+pr
+{
+	color: #f0ad4e;
+}
+hr
+{
+	border-top: 1px solid #f0ad4e;
+}
+h4
+{
+	color: #fefefc;
+}
+col-md-2,p
+{
+	color: #999191;
+}
+h3
+{
+	color: white;
+}
+h5
+{
+	color: #f0ad4e;
+}
+a
+{
+	text-decoration: none;
+	color: white;
+}
+

@@ -1,0 +1,30 @@
+.navbar-inverse
+{
+	border-radius: 0px; 
+	border:0px;
+	height: 65px;
+}
+.thumbnail img
+{
+	border-radius: 200px;
+	width:250px;
+	height: 250px;
+}
+.thumbnail
+{
+	background-color: #151412;
+	border:0px;
+}
+h3,h5
+{
+	color:#f0ad4e;
+}
+h2,h4
+{
+	color: white;
+}
+a
+{
+	color: #2c2929;
+	text-decoration: none;
+}

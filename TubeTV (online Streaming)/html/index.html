@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TubeTV</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body onload="displayTime();" style="background-color: black;">
+	<!--for home css-->
+  	<link rel="stylesheet" type="text/css" href="../css/index.css">
+    <script type="text/javascript" src="../js/time.js"></script>
+    <script>
+      var d = new Date();
+      document.getElementById("idTime").innerHTML = d;
+    </script>
+
+    <div class="row">
+      <div class="col-md-1">
+      </div>
+      <div class="col-md-10">
+        <span style="float: right;  padding-top:5px; color:#f0ad4e;">
+          <i class="fa fa-language" aria-hidden="true">&nbsp;&nbsp; English</i>&nbsp;&nbsp;&nbsp;
+          <i class="fa fa-clock-o" aria-hidden="true" >&nbsp;&nbsp;</i><span id="idTime"></span>&nbsp;&nbsp;&nbsp;
+          <i class="fa fa-phone" aria-hidden="true">&nbsp;&nbsp;+91 7820888183</i>
+        </span>
+      </div>
+      <div class="col-md-1">
+      </div>
+    </div>
+
+    <!--========================Header code starts here=========================-->
+
+    <?php
+      include ('../includes/header.php');
+    ?>
+
+    <!--====================Header code ends here=========================-->
+
+
+    <div class="container-fluid">
+    	<div class="row" style="margin-top: -20px;">	
+    		<div class="col-md-5" style="padding-left: 50px; padding-top: 35px;">
+				  	 <h1 style="font-size: 45px; color: white;">Welcome to TubeTV</h1><br/>
+    			<p style="font-size: 23px; color: #c0bfbf;">Join TubeTV to watch the latest movies, exclusive TV shows as well as award-winning TubeTV Originals.</p><br/>
+    			<form method="get" action="login.html">
+    				<button class="btn btn-lg" style="background-color:#f0ad4e; border-radius:0px; margin-top:2px; height: 55px; width: 300px;" ><!-- <a href="../html/login.html">&nbsp;&nbsp;Join TubeTV at free of cost&nbsp;&nbsp;</a> -->&nbsp;&nbsp;Join TubeTV at free of cost&nbsp;&nbsp;</button>
+    			</form>
+				<table>
+					<tr>
+						<td style="width:45%"><hr/></td>
+						<td style="vertical-align:middle; text-align: center; color: white;">&nbsp;&nbsp;or&nbsp;&nbsp;</td>
+						<td style="width:45%"><hr/></td>
+					</tr>
+				</table>
+				<form method="get" action="login.html">
+    				<button class="btn btn-lg" style="background-color:#f0ad4e; border-radius:0px; margin-top:2px; height: 55px; width: 300px;" >&nbsp;&nbsp;Join premium at &#8377;499 per year&nbsp;&nbsp;</button>
+    			</form><br><br><br>
+          </div>
+         	<div class="col-md-7">
+         		<img src="../images/homee.jpg" alt="main image" style="width: 100%; height: 450px;">
+         	</div>
+    	</div><!-- for row -->
+    </div><!-- container fluid -->
+    <div class="container">
+    	<div class="row" style="margin-top: 20px;">
+    		<div class="col-md-6">
+    			<img src="../images/home2.jpg" alt="Chicago" style=" margin-top: 0px; margin-left: 0px; width: 100%; height: 350px; ">
+    		</div>
+    		<div class="col-md-6">
+    			<h1 style="font-size: 45px; color: white;">Great Entertainment</h1><br/>
+    			<p style="font-size: 23px; color: #c0bfbf;">With your Prime membership, you have access to exclusive Amazon Originals, blockbuster Bollywood movies, regional movies and more.</p><br/>
+    			<form method="get" action="login.html">
+    				<button class="btn btn-lg" style="background-color:#f0ad4e; border-radius:0px; margin-top:2px; height: 55px; width: 200px;" >&nbsp;&nbsp;Get started&nbsp;&nbsp;</button>
+    			</form>
+    		</div>
+    	</div><!--for row-->
+    	<div class="row" style="margin-top: 40px;">
+    		<div class="col-md-6">
+    			<h1 style="font-size: 45px; color: white;">One membership, many benefits</h1><br/>
+    			<p style="font-size: 23px; color: #c0bfbf;">Your Prime membership now also includes ad-free music along with unlimited free, fast delivery on eligible items, exclusive access to deals & more.</p><br/>
+    			<form method="get" action="login.html">
+    				<button class="btn btn-lg" style="background-color:#f0ad4e; border-radius:0px; margin-top:2px; height: 55px; width: 200px;" >&nbsp;&nbsp;Get started&nbsp;&nbsp;</button>
+    			</form>
+    		</div>
+    		<div class="col-md-6">
+    			<img src="../images/home1.jpg" alt="Chicago" style="margin-top: 0px; margin-left: 0px; width: 100%; height: 300px; ">
+    		</div>
+    	</div><!-- for row -->
+    	
+    	</div>
+
+    	<div class="container-fluid">
+    	<div class="row" style="background-color: #151412; margin-top: 30px;">
+        <div class="col-md-4 " style="margin-top:30px; text-align:center;">
+          <div class="thumbnail tk">
+            <img src="../images/watchanywhere.jpg">
+          </div>
+          <span><h2>Watch anywhere</h2><h4>Enjoy from the web or with the Prime Video app on your phone, tablet, or select Smart TVs — on up to 3 devices at once.</h4></span>  
+        </div>
+        <div class="col-md-4 " style="margin-top:30px; text-align:center;">
+          <div class="thumbnail tk">
+            <img src="../images/dng.jpg">
+          </div>
+          <span><h2>Download and go</h2><h4>Watch offline on the Prime Video app when you download titles to your iPhone, iPad, Tablet, or Android device</h4></span>
+        </div>
+        <div class="col-md-4 " style="margin-top:30px; text-align:center;">
+          <div class="thumbnail tk">
+            <img src="../images/datasaver.jpg">
+          </div>
+          <span><h2>Data Saver</h2><h4>Control data usage while downloading and watching videos on select phones or tablets.</h4><br><br><br></span>
+        </div><!-- end of col-md-4 -->
+      
+        </div><!-- End of row -->
+    </div><!-- container fluid -->
+
+
+    <!--========================footer code starts here=========================-->
+
+    <?php
+      include ('../includes/footer.php');
+    ?>
+
+    <!--====================footer code ends here=========================-->
+
+    
+
+</body>
+</html>
