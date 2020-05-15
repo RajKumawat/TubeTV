@@ -7,7 +7,4 @@ Admin can Upload Movies / Web Series / Video ETC. Viewer Can Get The Latest Upda
 
 Language Used:
   
-  PHP
-  JavaScript
-  HTML
-  CSS
+  PHP / HTML / CSS / JAVASCRIPT
